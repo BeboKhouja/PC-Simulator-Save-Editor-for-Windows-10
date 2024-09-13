@@ -1,0 +1,9 @@
+namespace PC_Simulator_Save_Editor_for_Windows_10
+{
+    [default_interface]
+    runtimeclass MainWindow : Microsoft.UI.Xaml.Window
+    {
+        MainWindow();
+        Int32 MyProperty;
+    }
+}

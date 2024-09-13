@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>C:\Users\Bebo Khouja\AndroidStudioProjects\PCSimulatorSaveEditor\app\src\main\pc_simulator_save_editor-playstore.png</Source>
+    <SmallTileSource>C:\Users\Bebo Khouja\AndroidStudioProjects\PCSimulatorSaveEditor\app\src\main\pc_simulator_save_editor-playstore.png</SmallTileSource>
+    <MediumTileSource>C:\Users\Bebo Khouja\AndroidStudioProjects\PCSimulatorSaveEditor\app\src\main\pc_simulator_save_editor-playstore.png</MediumTileSource>
+    <WideTileSource>C:\Users\Bebo Khouja\AndroidStudioProjects\PCSimulatorSaveEditor\app\src\main\pc_simulator_save_editor-playstore.png</WideTileSource>
+    <LargeTileSource>C:\Users\Bebo Khouja\AndroidStudioProjects\PCSimulatorSaveEditor\app\src\main\pc_simulator_save_editor-playstore.png</LargeTileSource>
+    <AppIconSource>C:\Users\Bebo Khouja\AndroidStudioProjects\PCSimulatorSaveEditor\app\src\main\pc_simulator_save_editor-playstore.png</AppIconSource>
+    <SplashScreenSource>C:\Users\Bebo Khouja\AndroidStudioProjects\PCSimulatorSaveEditor\app\src\main\pc_simulator_save_editor-playstore.png</SplashScreenSource>
+    <PackageLogoSource>C:\Users\Bebo Khouja\AndroidStudioProjects\PCSimulatorSaveEditor\app\src\main\pc_simulator_save_editor-playstore.png</PackageLogoSource>
+  </PropertyGroup>
+</Project>
