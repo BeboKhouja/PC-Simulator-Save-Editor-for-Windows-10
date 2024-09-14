@@ -50,11 +50,12 @@ jobs:
         $certificatePath = "GitHubActionsWorkflow.pfx"
         [IO.File]::WriteAllBytes("$certificatePath", $pfx_cert_byte)
 
+    # The script breaks if you rename the repository name
     - name: Install Nugget Packages
       run: |
           cd ..
           dotnet add package Microsoft.Windows.CppWinRT
-          cd "PC Simulator Save Editor for Windows 10\"
+          cd "PC-Simulator-Save-Editor-for-Windows-10\"
 
     # Create the app package by building and packaging the project
     - name: Create the app package
