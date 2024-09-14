@@ -53,7 +53,7 @@ jobs:
     # The script breaks if you rename the repository name
     - name: Install Nugget Packages
       run: |
-          dotnet add "PC-Simulator-Save-Editor-for-Windows-10" package "Microsoft.Windows.CppWinRT"
+          dotnet add "PC Simulator Save Editor for Windows 10" package "Microsoft.Windows.CppWinRT"
 
     # Create the app package by building and packaging the project
     - name: Create the app package
