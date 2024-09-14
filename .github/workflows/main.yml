@@ -52,7 +52,9 @@ jobs:
 
     - name: Install Nugget Packages
       run: |
-          dotnet add package Microsoft.Windows.CppWinRT.2.0.230706.1
+          cd ..
+          dotnet add package Microsoft.Windows.CppWinRT
+          cd "PC Simulator Save Editor for Windows 10\"
 
     # Create the app package by building and packaging the project
     - name: Create the app package
