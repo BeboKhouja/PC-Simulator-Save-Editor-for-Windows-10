@@ -50,10 +50,9 @@ jobs:
         $certificatePath = "GitHubActionsWorkflow.pfx"
         [IO.File]::WriteAllBytes("$certificatePath", $pfx_cert_byte)
 
-    - name: restore-nuget-packages
-  # You may pin to the exact commit or the version.
-  # uses: IT-Service/restore-nuget-packages@3d9f4bfad52d4376730fc953b3e00945c9f1cb1c
-      uses: IT-Service/restore-nuget-packages@v1.0.2
+    - name: Install Nugget Packages
+      run: |
+          dotnet add package Microsoft.Windows.CppWinRT.2.0.230706.1
 
     # Create the app package by building and packaging the project
     - name: Create the app package
